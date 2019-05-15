@@ -33,7 +33,13 @@ namespace MvcMovie.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        publid IActionResult Calendar()
+
+        public IActionResult Drive()
+        {
+          return View()
+        }
+
+        public IActionResult Calendar()
         {
             return View();
         }
