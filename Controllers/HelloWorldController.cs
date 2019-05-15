@@ -20,5 +20,10 @@ namespace MvcMovie.Controllers
         {
             return "This is the Welcome action method modified in sprint1";
         }
+
+        public IActionResult AddEntity()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
