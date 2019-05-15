@@ -36,6 +36,11 @@ namespace MvcMovie.Controllers
 
         public IActionResult Drive()
         {
+          return View()
+        }
+
+        public IActionResult Calendar()
+        {
             return View();
         }
     }
